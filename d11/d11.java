@@ -19,7 +19,7 @@ class KeepAway {
     ArrayList<Monkey> monkeys;
 
     KeepAway() throws IOException {
-        Scanner scan = new Scanner(new File("./d11/small.txt"));
+        Scanner scan = new Scanner(new File("./small.txt"));
         monkeys = new ArrayList<>();
         while(scan.hasNextLine()) {
             scan.nextLine();
